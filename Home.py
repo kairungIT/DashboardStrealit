@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon= ":bar_chart:",
 )
 
-st.write("# Welcome to Streamlit! 👋")
+st.write("# การพยากรณ์ราคาหุ้น! 👋")
 
 st.sidebar.success("Select a demo above.")
 
