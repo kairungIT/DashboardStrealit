@@ -4,7 +4,7 @@ import requests
 import streamlit as st
 
 st.set_page_config(
-    page_title="Hello",
+    page_title="Kairung Datascience Project",
     page_icon= ":bar_chart:",
 )
 
