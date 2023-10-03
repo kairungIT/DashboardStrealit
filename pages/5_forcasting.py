@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score,mean_squared_error
 
-df=pd.read_csv('/data/stock_index_price.csv')
+df=pd.read_csv('./data/stock_index_price.csv')
 
 x=df[['interest_rate','unemployment_rate']]
 y=df['stock_index_price']
